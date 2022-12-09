@@ -1,0 +1,36 @@
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.task-list-item {
+list-style-type: none;
+}
+
+.task-list-item-checkbox {
+margin-left: -20px;
+vertical-align: middle;
+pointer-events: none;
+}
+
+title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6; 
+}
+
+h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.6; 
+    font-weight: bold;
+}
+
+img {
+    align-items: center;
+}
